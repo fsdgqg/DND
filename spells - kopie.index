@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Thunder Cage" type="Spell" source="Forbidden spells " id="ID_SNODER_FORBIDDEN_SPELLS__SPELL_THUNDER_CAGE">
+		<supports>Wizard</supports>
+		<description>
+			<p>ou cast this spell, choose a point you can see within range. A spherical cage of electrical energy with a 5 foot cube  forms around the point and remains for the duration. The sphere is transparent but vibrantly outlines with arcs of lightning that crackle across its surface, illuminating the area brightly.</p>
+			<p></p>
+			<p>When the cage appears, all creatures within its area must make a Dexterity saving throw. A creature takes 3d8 lightning damage and 3d8 thunder damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are also deafened for the duration due to the overwhelming roar of thunder.</p>
+			<p></p>
+			<p>The cage's electrified barrier prevents physical and magical passage. Creatures within the cage can't physically pass through its boundary, nor can they teleport or use interdimensional travel to leave the area. Spells and other magical effects can't extend through the dome or be cast out of it. Projectiles and ranged spells can enter the cage and exit it.</p>
+			<p></p>
+			<p>At the start of each of your turns after you cast this spell, you can direct a bolt of lightning at a creature you can see within the cage. Make a ranged spell attack against the target. On a hit, the target takes 2d8 lightning damage.</p>
+			<p></p>
+			<p>**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the radius of the cage increases by 5 feet, and the damage dealt by the initial appearance of the cage and the directed lightning bolt increases by 1d8 for each slot level above 5th.</p>
+			<p></p>
+			<p>**Forbidden Aspect:** The caster is struck by a backlash of their own magic, taking 3d6 lightning damage and 3d6 thunder damage (this damage ignores resistances and immunities).</p>
+		</description>
+		<setters>
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time"> 1 Action</set>
+			<set name="duration">1 minute</set>
+			<set name="range"> 90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
